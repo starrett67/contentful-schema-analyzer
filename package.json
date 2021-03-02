@@ -1,0 +1,19 @@
+{
+  "name": "contentful-content-type-tree",
+  "version": "1.0.0",
+  "description": "Display a dependency tree for contentful content types",
+  "main": "cli/index.js",
+  "bin": {
+    "contentful-content-tree": "cli/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^7.1.0",
+    "contentful-management": "^7.8.0",
+    "treeify": "^1.1.0"
+  }
+}
