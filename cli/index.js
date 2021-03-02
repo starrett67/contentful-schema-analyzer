@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { program } = require('commander')
 const { main } = require('../lib')
 const { version } = require('../package.json')
