@@ -8,7 +8,8 @@ This tool displays a dependency tree of a contentful content type. I built this 
 - Contentful management token (Needed for more granular content type information from api)
 
 ## Usage
-```Usage: contentful-content-tree [options]
+```
+Usage: contentful-content-tree [options]
 
 A tool to display a dependencies tree of content types.
 
@@ -18,8 +19,8 @@ Options:
   -e,--environment <value>      Contentful environment name (default: "master")
   -r,--rootContentType <value>  Root Content Type ID for the tree (default: "page")
   -t,--managementToken <value>  Contentful management token
-  -h, --help                    display help for command```
-
+  -h, --help                    display help for command
+```
 
 ### Example
 `contentful-content-tree -s [SPACE_ID] -e [ENVIRONMENT_ID] -t [CONTENT_MANAGEMENT_TOKEN] -r store`
