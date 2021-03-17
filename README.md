@@ -1,7 +1,7 @@
-# Contentful Content Type Tree
+# Contentful Schema Analyzer
 
 ## Description
-This tool displays a dependency tree of a contentful content type. I built this tool so I could better understand how my organization was using content and where the dependencies were.
+This tool displays schema information about your contentful content types.
 
 ## Requirements
 - Nodejs
@@ -9,21 +9,20 @@ This tool displays a dependency tree of a contentful content type. I built this 
 
 ## Usage
 ```
-Usage: contentful-content-tree [options]
-
-A tool to display a dependencies tree of content types.
+Usage: csa [options] [command]
 
 Options:
-  -V, --version                 output the version number
-  -s,--space <value>            Contentful Space Id
-  -e,--environment <value>      Contentful environment name (default: "master")
-  -r,--rootContentType <value>  Root Content Type ID for the tree (default: "page")
-  -t,--managementToken <value>  Contentful management token
-  -h, --help                    display help for command
+  -V, --version   output the version number
+  -h, --help      display help for command
+
+Commands:
+  tree            display dependency tree of content type
+  links           display the most links a content type's entries has
+  help [command]  display help for command                display help for command
 ```
 
 ### Example
-`contentful-content-tree -s [SPACE_ID] -e [ENVIRONMENT_ID] -t [CONTENT_MANAGEMENT_TOKEN] -r store`
+`csa tree -s [SPACE_ID] -e [ENVIRONMENT_ID] -t [CONTENT_MANAGEMENT_TOKEN] -r store`
 
 Output:
 ```
