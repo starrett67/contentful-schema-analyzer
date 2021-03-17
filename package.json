@@ -1,10 +1,11 @@
 {
-  "name": "contentful-content-type-tree",
+  "name": "contentful-schema-analyzer",
   "version": "1.0.0",
   "description": "Display a dependency tree for contentful content types",
   "main": "cli/index.js",
   "bin": {
-    "contentful-content-tree": "cli/index.js"
+    "content-schema-analyzer": "cli/index.js",
+    "csa": "cli/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,8 +13,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@supercharge/promise-pool": "^1.6.0",
     "commander": "^7.1.0",
     "contentful-management": "^7.8.0",
+    "progress": "^2.0.3",
+    "table": "^6.0.7",
     "treeify": "^1.1.0"
   }
 }
