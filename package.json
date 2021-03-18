@@ -1,6 +1,6 @@
 {
   "name": "contentful-schema-analyzer",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Display a dependency tree for contentful content types",
   "main": "cli/index.js",
   "bin": {
@@ -19,5 +19,14 @@
     "progress": "^2.0.3",
     "table": "^6.0.7",
     "treeify": "^1.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/starrett67/contentful-schema-analyzer"
+  },
+  "keywords": [
+    "contentful",
+    "content",
+    "schema"
+  ]
 }

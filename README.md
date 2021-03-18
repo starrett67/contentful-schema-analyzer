@@ -18,7 +18,7 @@ Options:
 Commands:
   tree            display dependency tree of content type
   links           display the most links a content type's entries has
-  help [command]  display help for command                display help for command
+  help [command]  display help for command
 ```
 
 ### Example

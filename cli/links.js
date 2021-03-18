@@ -6,7 +6,7 @@ const { linksCommand } = require('../lib')
 const program = new Command()
 
 program
-  .description('Display the most links that an entry for the specified content type has.')
+  .description('Display infomation about the number of links that a content types entries has.')
   .requiredOption('-s,--space <value>', 'Contentful Space Id')
   .requiredOption('-t,--managementToken <value>', 'Contentful management token')
   .option('-e,--environment <value>', 'Contentful environment name', 'master')
